@@ -3,7 +3,7 @@ package A3bfs;
 import java.util.*;
 
 
-public class A01Bfs최단거리 {
+public class A02Bfs최단거리 {
     static List<List<Integer>>adjList;
     static boolean[] visited;
     public static void main(String[] args) {

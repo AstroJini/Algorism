@@ -87,7 +87,7 @@ public class A03Practice {
         int[] arr = {7, 6, 5, 8, 3, 5, 9, 1, 6};
 //        최초의 힙 구성
         for (int i = arr.length/2-1; i >=0 ; i--) {
-            heapify(arr, i, arr.length)
+            heapify(arr, i, arr.length);
         }
 
         for (int i = arr.length-1; i >=0 ; i--) {

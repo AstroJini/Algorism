@@ -88,7 +88,7 @@ public class A01Dfs모든경우의수 {
     static void dfs(int start,List<Integer>temp){
         temp.add(start);
         if (adjList.get(start).isEmpty()){
-            result.add(temp);
+            result.add(new ArrayList<>(temp));
         }
         for (int a : adjList.get(start)) {
             dfs(a,temp);
@@ -97,5 +97,7 @@ public class A01Dfs모든경우의수 {
     }
 //    백준 : dfsbfs(1260) -> dfs, bfs로 가능
 //    백준 : 연결요소의 개수(11724) -> dfs bfs로 가능
+//    대부분의 경우 양방향으로 문제를 풀면 문제될 것이 따로 없음
+//    0 () 1(2,5) 2(5) 3(4) 4(3,6) 5(1,2) 6(4) 연결된 요소들의 개수를 출력하는 것
 }
 

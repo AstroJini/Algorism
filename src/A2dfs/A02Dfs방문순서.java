@@ -2,7 +2,7 @@ package A2dfs;
 
 import java.util.*;
 
-public class A01Dfs방문순서 {
+public class A02Dfs방문순서 {
     static List<List<Integer>>adjList; ///원본 자료가 들어있는 리스트
     static boolean[] visited; /// 방문여부를 나누는 불린배열
     public static void main(String[] args) {
