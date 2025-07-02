@@ -32,3 +32,34 @@ public class A01계단관련 {
 
     }
 }
+
+
+//public class Main {
+//
+//    public static void main(String[] args) throws IOException {
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        int n = Integer.parseInt(br.readLine());
+//        int [] arr = new int[n+1];
+//        int [] maxArr = new int[arr.length];
+//        maxArr[0] = arr[0];
+//        for(int i=1; i<arr.length; i++){
+//            arr[i] = Integer.parseInt(br.readLine());
+//        }
+//        if(n==1){
+//            maxArr[1] = arr[1];
+//        } else if(n==2){
+//            maxArr[1] = arr[1];
+//            maxArr[2] = arr[1] + arr[2];
+//        } else {
+//            maxArr[1] = arr[1];
+//            maxArr[2] = arr[1] + arr[2];
+//            for(int i=3; i<maxArr.length; i++){
+//                int a = maxArr[i-2] + arr[i];
+//                int b = maxArr[i-3] + arr[i-1] + arr[i];
+//                maxArr[i] = Math.max(a,b);
+//            }
+//        }
+//        System.out.println(maxArr[n]);
+//    }
+//
+//}

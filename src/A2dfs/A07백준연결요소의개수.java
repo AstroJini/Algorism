@@ -21,7 +21,7 @@ public class A07백준연결요소의개수 {
         }
 
         adjList = new ArrayList<>();
-        visited = new boolean[N]; ///정점의 개수만큼 방문여부 불린타입 개수 지정
+        visited = new boolean[N]; ///정점의 개수만큼 방문여부 불린타입 개수 지정.
 
         for(int i=0; i<N; i++){ /// 정점의 개수만큼 List 생성
             adjList.add(new ArrayList<>());
